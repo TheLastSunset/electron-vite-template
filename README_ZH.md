@@ -33,6 +33,12 @@ npm config edit
 
 ```
 
+yarn config
+```
+yarn config set registry https://registry.npm.taobao.org/
+yarn config set ELECTRON_MIRROR https://cdn.npm.taobao.org/dist/electron/
+yarn config set ELECTRON_BUILDER_BINARIES_MIRROR http://npm.taobao.org/mirrors/electron-builder-binaries/
+```
 ---
 
 # [更新日志](/CHANGELOG.md)
